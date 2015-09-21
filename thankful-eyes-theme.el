@@ -6,6 +6,11 @@
 ;; Version: 0.1
 ;; Keywords: thankful eyes, theme
 ;; URL: https://github.com/jneen/thankful-eyes-elisp
+
+;;; Commentary:
+;;; A port of the thankful eyes theme from gtksourceview
+
+;;; Code:
 (deftheme thankful-eyes "a port of the thankful eyes theme from gtksourceview")
 
 (let ((class '((class color) (min-colors 89)))
@@ -68,3 +73,4 @@
   ))
 
 (provide-theme 'thankful-eyes)
+;;; thankful-eyes-theme.el ends here
